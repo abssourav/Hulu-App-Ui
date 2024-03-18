@@ -5,7 +5,7 @@ import HeaderRight from '../layout/HeaderLayout/HeaderRight'
 
 const Header = () => {
   return (
-    <div className='flex items-center justify-between p-4 px-9'>
+    <div className='flex items-center justify-between p-4 px-9 absolute z-20 w-full bg-gradient-to-b from-[#1e2126] via-transparent '>
       <HeaderLogo />
       <DropDownMenu />
       <HeaderMenu />

@@ -9,6 +9,7 @@ interface MenuState {
     menu:MenuItem[]
 }
 
+//initialState
 const initialMenu:MenuState = {
     menu : [
             {

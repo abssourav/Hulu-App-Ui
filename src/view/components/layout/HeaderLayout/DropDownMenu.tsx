@@ -21,7 +21,7 @@ const DropDownMenu = () => {
                     <FaAngleUp />
                 }
             </div>
-            {toggle && <ul className="md:hidden absolute p-4 bg-[#374151] rounded-lg left-0 right-0 ml-auto mr-auto w-[200px] mt-1">
+            {toggle && <ul className="md:hidden z-50 absolute p-4 bg-[#374151] rounded-lg left-0 right-0 ml-auto mr-auto w-[200px] mt-1">
                 {
                     menu.map((item) => (
                         <li

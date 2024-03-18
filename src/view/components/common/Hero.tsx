@@ -11,6 +11,7 @@ const Hero = () => {
   useEffect(() => {
     getPopularMovies()
     getMoviesByGenres(28)
+
   }, [getPopularMovies])
 
   return (
@@ -25,7 +26,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <img src={EnvConfig.IMAGE_BASE_URL + movies[14]?.backdrop_path} alt="something wrong" className="object-cover w-full h-[90vh] md:h-[100vh]"/>
+      <img src={EnvConfig.IMAGE_BASE_URL + movies[15]?.backdrop_path} alt="something wrong" className="object-cover w-full h-[90vh] md:h-[100vh]"/>
     </div>
   )
 }

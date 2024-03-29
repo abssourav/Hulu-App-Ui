@@ -5,10 +5,10 @@ import { genere } from "../../../../config/constant/genresList.constant";
 import GenresCardLayout from "./GenresCardLayout";
 
 const GenresListLayout = () => {
-  const [element, setElement] = useState<any>([]);
+  const [element, setElement] = useState<any[]>([]);
 
   const onChildElement = (elem: any, index: number) => {
-    setElement((prevElement) => {
+    setElement((prevElement: any) => {
       console.log(prevElement);
 
       const updatedElement = [...prevElement];
